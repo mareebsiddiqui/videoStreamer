@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streamer</title>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/video-streamer.js"></script>
+</head>
+
+<body>
+    <div id="canRecordAlert"></div>
+    <video id="video" style="min-width: 100%; min-height: 100%;" playsinline>
+        Sorry not supported
+    </video>
+    <br/>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <progress value="0" max="100" id="progress"></progress>
+</body>
+
+</html>
